@@ -1,0 +1,11 @@
+#!/Users/greenbloom11/Downloads/nishav05-civictech-ff17d941c120/venv/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from static import command
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(command())

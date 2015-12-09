@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "name": "openorders",
+  "version": "1.0.0",
+  "description": "openorders",
+  "main": "./index.js",
+  "author": "openorders",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.0",
+    "moment": "^2.10.6",
+    "react": "^0.14.2",
+    "react-datepicker": "^0.15.2",
+    "react-dom": "^0.14.2",
+    "react-paginate": "^0.4.0",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  }
+}

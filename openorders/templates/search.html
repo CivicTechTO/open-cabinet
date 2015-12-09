@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>OpenOrders - Helping you keep tabs on the Executive</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/css/freelancer.css" rel="stylesheet">
+    <link href="static/css/override.css" rel="stylesheet">
+    <link href="static/css/react-datepicker.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">OpenOrders</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="/#Secret">Secret</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#">Search</a>
+                    </li>                    
+                    <li class="page-scroll">
+                        <a href="/#data">Data</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#api">API</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- Portfolio Grid Section -->
+    <section>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Search</h2>
+            </div>
+        </div>
+
+        <div class="container" id="search">
+
+        </div>
+    </section>
+ 
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col col-md-6">
+                        <h3>Disclaimer</h3>
+                        <p>
+This is not a Government of Canada website.
+OpenOrders gets the orders from the Orders in Council database available <a href="http://www.pco-bcp.gc.ca/oic-ddc.asp?lang=eng&page=secretariats" target="_blank">here</a>. Information on this website should not be considered official. The orders are provided for information purposes only. To obtain an official version of an OIC, please contact the <a href="http://www.pco-bcp.gc.ca/index.asp?lang=eng&page=secretariats&sub=oic-ddc&doc=contact-eng.htm">Orders in Council Division</a>.</p>
+                    </div>
+
+
+                    <div id="contact" class="footer-col col-md-6">
+                        <h3>About OpenOrders</h3>
+                        <p>Open Orders is an attempt to increase government transparency. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; OpenOrders 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- DEV  -->
+    <!-- <script src="http://localhost:8090/webpack-dev-server.js"></script> -->
+    <!-- <script type="text/javascript" src="http://localhost:8090/assets/bundle.js"></script> -->
+    <!-- DEV -->
+
+    <!-- PROD -->
+    <script type="text/javascript" src="../static/js/bundle.js"></script>
+    <!-- PROD -->
+
+
+
+
+</body>
+
+</html>
