@@ -24,25 +24,21 @@
 
   <body>
     <div id="content">
-      <h1 class="title">oc_home</h1>
-      <div id="table-of-contents">
-        <h2>Table of Contents</h2>
-        <div id="text-table-of-contents">
-          <ul>
-            <li><a href="#sec-1">1. Header</a></li>
-            <li><a href="#sec-2">2. Navigation</a></li>
-            <li><a href="#sec-3">3. Recent Orders</a></li>
-            <li><a href="#sec-4">4. Side-by-side</a>
-              <ul>
-                <li><a href="#sec-4-1">4.1. Alerts</a></li>
-                <li><a href="#sec-4-2">4.2. About OC</a></li>
-              </ul>
-            </li>
-            <li><a href="#sec-5">5. Glossary</a></li>
-            <li><a href="#sec-6">6. Footer</a></li>
-          </ul>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="nav navbar-nav">
+            <!-- <p>Home </p>
+            <p>Search </p>
+            <p>Alerts </p>
+            <p>Subscribe </p> -->
+            <p> THIS IS THE NAV BAR </p>
+          </div>
         </div>
-      </div>
+      </nav>
+
+      <h1 class="title">oc_home</h1>
+
+<!--
       <div id="outline-container-sec-1" class="outline-2">
         <h2 id="sec-1"><span class="section-number-2">1</span> Header</h2>
         <div class="outline-text-2" id="text-1">
@@ -54,23 +50,7 @@
           </ul>
         </div>
       </div>
-      <div id="outline-container-sec-2" class="outline-2">
-        <h2 id="sec-2"><span class="section-number-2">2</span> Navigation</h2>
-        <div class="outline-text-2" id="text-2">
-          <ul class="org-ul">
-            <li>Home
-            </li>
-            <li>Search
-            </li>
-            <li>Alerts
-              <ul class="org-ul">
-                <li>Subscribe
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
       <div id="outline-container-sec-3" class="outline-2">
         <h2 id="sec-3"><span class="section-number-2">3</span> Recent Orders</h2>
         <div class="outline-text-2" id="text-3">
@@ -79,29 +59,28 @@
       <div id="outline-container-sec-4" class="outline-2">
         <h2 id="sec-4"><span class="section-number-2">4</span> Side-by-side</h2>
         <div class="outline-text-2" id="text-4">
-        </div>
-        <div id="outline-container-sec-4-1" class="outline-3">
-        <h3 id="sec-4-1"><span class="section-number-3">4.1</span> Alerts</h3>
-          <div class="outline-text-3" id="text-4-1">
-            <ul class="org-ul">
-              <li>Sign up to our mailing list to receive email notifications
-              </li>
-              <li>ICON
-              </li>
-            </ul>
+        </div> -->
+        <div class="row">
+          <div class="well col-md-5 col-md-offset-1">
+          <h3 id="sec-4-1"><span class="section-number-3">4.1</span> Alerts</h3>
+            <div class="outline-text-3" id="text-4-1">
+              <ul class="org-ul">
+                <li>Sign up to our mailing list to receive email notifications</li>
+                <li>ICON</li>
+              </ul>
+            </div>
+          </div>
+          <div class="well col-md-5">
+            <h3 id="sec-4-2"><span class="section-number-3">4.2</span> About OC</h3>
+            <div class="outline-text-3" id="text-4-2">
+              <ul class="org-ul">
+                <li>Open Orders originally came out of <a href="http://civictech.ca/">CivicTech Toronto</a>. The project is an attempt to increase transparency in government. Contact us <span class="underline">here</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div id="outline-container-sec-4-2" class="outline-3">
-          <h3 id="sec-4-2"><span class="section-number-3">4.2</span> About OC</h3>
-          <div class="outline-text-3" id="text-4-2">
-            <ul class="org-ul">
-              <li>Open Orders originally came out of <a href="http://civictech.ca/">CivicTech Toronto</a>. The project is an attempt to increase transparency in government. Contact us <span class="underline">here</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div id="outline-container-sec-5" class="outline-2">
+      <div  class="well">
         <h2 id="sec-5"><span class="section-number-2">5</span> Glossary</h2>
         <div class="outline-text-2" id="text-5">
           <ul class="org-ul">
@@ -114,7 +93,8 @@
         </div>
       </div>
 
-      <div id="outline-container-sec-6" class="outline-2">
+    <footer class="footer">
+      <div class="outline-2">
         <h2 id="sec-6"><span class="section-number-2">6</span> Footer</h2>
         <div class="outline-text-2" id="text-6">
           <ul class="org-ul">
@@ -129,6 +109,7 @@
           </ul>
         </div>
       </div>
+    </footer>
     </div>
 
   </body>
