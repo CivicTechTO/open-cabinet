@@ -18,7 +18,18 @@ All this is just for that search page's UI. If you can't find someone comfortabl
 
 ## TODO
 1. The views in the alerts blueprint & associated Unsubscribe & confirmation page templates. (alerts/views.py)
-2. Confirmation email template 
-3. Daily digest email template & associated dailymailer script. (+cron)
-4. A signup box on the homepage that posts to the subscribe view in alerts.
-5. Categorization & viz.
+2. Email Based
+    * [ ] Confirmation email template 
+	* [ ] Daily digest email template & associated dailymailer script. (+cron)
+	* [ ] Alerts subscription page 
+	* [ ] Decidce on email subscription service
+3. A signup box on the homepage that posts to the subscribe view in alerts.
+4. Categorization: keywords and alert filters
+5. Vizualization: wordcloud from recent orders ?
+6. Front-end TODO
+   * [ ] page frameworks for alerts / search
+   * [ ] js for options, popovers, boxes
+   * [ ] js for search results
+   * [ ] js + elastic search
+7. Copy TODO
+   * [ ] Contextual Help in alerts
